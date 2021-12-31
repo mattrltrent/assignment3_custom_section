@@ -1,0 +1,229 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+#title {
+    background-color: #212529;
+    color: white;
+    padding: 0 10vw;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-text, .card-title, .btn, .btn-primary {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.full-card {
+    padding: 15px 15px;
+}
+
+.hero {
+    padding: 0 12px;
+    text-align: left;
+}
+
+.hero-center {
+    padding: 30vh 5vw 0 10vw;
+    overflow: hidden;
+}
+
+.hand {
+    max-height: auto;
+    width: 93vh;
+    overflow-x: hidden;
+    background-size: cover;
+    
+}
+
+#about {
+    padding-top: 12vh;
+}
+
+.about {
+    background-color: #212529;
+}
+
+@media only screen and (max-width: 1209px) {
+    .hand {
+      display: none;
+    }
+    #projects {
+        padding-top: 30vh;
+    }
+  }
+
+.hand-div {
+    text-align: right;
+    padding-right: 180px
+}
+
+.skills {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;  
+    color: white;
+}
+
+.pop {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.wow {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center; 
+}
+
+.smaller {
+    max-width: 93%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+}
+
+.wow-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    text-align: center;
+    padding-bottom: 10vh;
+}
+
+.skills-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    padding: 0 20px 15vh 20px;
+}
+
+.about {
+    padding: 10vh 11vw;
+}
+
+.about-main {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+
+.about-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+}
+
+.pad-around {
+    padding: 3vh 20px;
+    text-align: center;
+    color: black;
+    margin: 0;
+}
+
+.add-style {
+    color: black;
+    margin: 0;
+}
+
+.about-p-p {
+    padding-top: 10vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+}
+
+
+p {
+    padding: 0;
+}
+
+.skill-item {
+    height: 15vh;
+}
+
+#projects {
+    margin-top: 90vh;
+}
+
+.card-section {
+    padding: 15vh 11vw;
+    text-align: center;
+}
+
+.floating-block-1 {
+    position: absolute;
+    overflow-x: hidden;
+    background-color: #212529;
+    height: 35vh;
+    width: 200%;
+    z-index: 0;
+    top: 85vh;
+    left: -50vw;
+    transform: rotate(-4deg);
+} 
+
+.bottom-icons {
+    text-align: center;
+    padding: 0 5px;
+}
+
+.foot {
+    text-align: center;
+}
+
+.floating-cover {
+    padding-top: 7vh;
+    background-color: #212529;
+    height: 70vh;
+    position: absolute;
+    top: 110vh;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+}
+
+.floating-block-2 {
+    position: absolute;
+    overflow-x: hidden;
+    background-color: #212529;
+    height: 35vh;
+    width: 200%;
+    left: -50vw;
+    z-index: 0;
+    top: 155vh;
+    transform: rotate(-4deg);
+} 
+
+#tag {
+    background-color: red;
+    margin-top: 112vh;
+    z-index: 5;
+    position: absolute;
+    width: 100%;
+}
+
+.double-pros {
+    color: white;
+}
+
+.go-left {
+    text-align: left;
+    padding: 0 11vw;
+}
+
+.go-right {
+    text-align: right;
+    padding: 0 11.5vw;
+}
